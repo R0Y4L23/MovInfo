@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "movie",
-    "slug": "movie",
+    "name": "MovInfo",
+    "slug": "MovInfo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/clapperboard.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/clapperboard.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#232020"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,12 +21,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/clapperboard.png",
+        "backgroundColor": "#232020"
+      },
+      "package": "com.royalapps.movinfo",
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/clapperboard.png"
     }
   }
 }
